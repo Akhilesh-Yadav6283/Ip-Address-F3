@@ -14,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2%;
-    font-weight: 700;
-    font-size: 34px;
+    font-weight: 600;
+    font-size: 26px;
 }
 
 #details {
@@ -27,7 +27,8 @@ body {
 .first-line,.second-line {
     padding: 2%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 80px;
 }
 
 #map {
@@ -46,13 +47,15 @@ body {
     font-size: 48px;
     font-weight: 700;
     color: rgba(184, 188, 204, 1);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Mpre Info */
 #moreInfo {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
+
 }
 
 #moreInfo>p {
@@ -65,5 +68,6 @@ body {
 #moreInfo>div p {
     color: rgba(184, 188, 204, 0.5);
     font-weight: 700;
-    font-size: 34px;
+    font-size: 30px;
+    margin-top: 15px;
 }
